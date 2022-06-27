@@ -134,7 +134,6 @@ const onCardClick = (event) => {
     }
 
     editProductForm.addEventListener('submit', editProduct)
-
   }
 }
 if (list) list.addEventListener('click', onCardClick)
@@ -187,9 +186,6 @@ filterForm.addEventListener("submit", sortProducts)
 //   renderProduct(FilterModels)
 // }
 // filterForm.addEventListener('submit', FilterModels)
-
-
-
 
 
 
